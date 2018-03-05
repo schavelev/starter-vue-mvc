@@ -2,7 +2,8 @@
 ![image](vue+aspnet+ts-bootstrap+require.png?raw=true "image")
 
 Решение Visual Studio 2017, заготовка для приложений Asp.Net Core MVC + Vue.js + TypeScript + Bootstrap4. Также используется в качестве примера для статей на habrahabr.ru:
-- статья в процессе написания.
+- [Vue.js + Asp.Net Core MVC + TypeScript и ещё Bootstrap4](https://habrahabr.ru/post/350332/);
+- продолжение следует... 
 
 # Установка
 
@@ -19,4 +20,4 @@ dotnet build
 dotnet bundle
 dotnet run
 ```
-В браузере открываем страницу по указанному адресу, например, http://localhost:52643.
+В браузере открываем страницу по указанному адресу, например, http://localhost:51766.
