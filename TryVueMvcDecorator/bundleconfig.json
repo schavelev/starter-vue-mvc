@@ -1,0 +1,85 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/dist/vendor1.js",
+    "inputFiles": [
+      "node_modules/jquery/dist/jquery.js",
+      "node_modules/popper.js/dist/umd/popper.js",
+      "node_modules/bootstrap/dist/js/bootstrap.js",
+      "node_modules/systemjs/dist/system.src.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/dist/vendor1.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.css"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/dist/vendor1.min.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.min.css"
+    ],
+    "minify": {
+      "enabled": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/vendor/vue.js",
+    "inputFiles": [
+      "node_modules/vue/dist/vue.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/vendor/vue-class-component.js",
+    "inputFiles": [
+      "node_modules/vue-class-component/dist/vue-class-component.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "wwwroot/dist/main.css",
+    "inputFiles": [
+      "ClientApp/**/*.css"
+    ],
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/dist/app-bandle.min.js",
+    "inputFiles": [
+      "wwwroot/dist/app-bandle.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/dist/app-templates.html",
+    "inputFiles": [
+      "ClientApp/**/*.html"
+    ],
+    "minify": {
+      "enabled": false,
+      "renameLocals": false
+    }
+  }
+]

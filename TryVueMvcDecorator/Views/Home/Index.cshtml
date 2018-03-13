@@ -1,0 +1,31 @@
+﻿@* Views/Home/Index.cshtml *@
+@using Microsoft.AspNetCore.Hosting
+@inject IHostingEnvironment hostingEnv
+@{
+    var suffix = hostingEnv.IsDevelopment() ? "" : ".min";
+    var vueUrl = $"vendor/vue{suffix}.js";
+    var vueClassComponentUrl = $"vendor/vue-class-component{suffix}.js";
+    var mainUrl = $"dist/app-bandle{suffix}.js";
+
+    ViewData["Title"] = "TryVueMvc Sample";
+}
+<section id="app-templates"></section>
+<div id="app-root">loading..</div>
+@section Scripts{
+<script>
+    System.config({
+        map: {
+            "vue": "@vueUrl",
+            "vue-class-component": "@vueClassComponentUrl"
+        }
+    });
+
+    $.get("dist/app-templates.html").done(function (data) {
+        $('#app-templates').append(data);
+
+        SystemJS.import('@mainUrl').then(function (m) {
+            SystemJS.import('index');
+        });
+    });
+</script>
+}

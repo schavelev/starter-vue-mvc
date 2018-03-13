@@ -6,6 +6,7 @@
 [Bb]in/
 [Oo]bj/
 dist/
+vendor/
 built/
 
 node_modules/
