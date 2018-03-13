@@ -6,12 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ClientApp\components\AppHello.ts" />
-    <None Remove="ClientApp\components\Hello.ts" />
-    <None Remove="index.ts" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="BundlerMinifier.Core" Version="2.6.362" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="2.7.2" />
