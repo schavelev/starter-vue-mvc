@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
@@ -8,7 +7,13 @@
     "module": "system",
     "outFile": "wwwroot/dist/app-bandle.js",
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
   },
   "include": [
     "./ClientApp/**/*.ts"

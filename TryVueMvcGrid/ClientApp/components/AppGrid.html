@@ -1,0 +1,12 @@
+﻿<!-- ClientApp/components/AppGrid.html -->
+<template id="app-grid-template">
+    <div>
+        <form id="search">
+            Search <input name="query" v-model="searchQuery">
+        </form>
+        <demo-grid :rows="gridRows"
+                   :columns="gridColumns"
+                   :filter-key="searchQuery">
+        </demo-grid>
+    </div>
+</template>
