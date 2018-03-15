@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using TryVueMvcGrid.Models;
+using TryVueMvc.Models;
 
-namespace TryVueMvcGrid.Controllers
+namespace TryVueMvc.Controllers
 {
     public class HomeController : Controller
     {

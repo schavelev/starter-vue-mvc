@@ -1,6 +1,6 @@
 using System;
 
-namespace TryVueMvcGrid.Models
+namespace TryVueMvc.Models
 {
     public class ErrorViewModel
     {
