@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TryVueMvc</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/dist/vendor1.css" />
+        <link rel="stylesheet" href="~/dist/main.css" asp-append-version="true" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="~/dist/vendor1.min.css" />
+        <link rel="stylesheet" href="~/dist/main.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
+                aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="container">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2018 - Company</p>
+        </footer>
+    </main>
+    <environment include="Development">
+        <script src="~/dist/vendor1.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/dist/vendor1.min.js"></script>
+    </environment>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

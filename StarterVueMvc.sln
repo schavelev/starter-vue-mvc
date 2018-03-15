@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 		README.ru-ru.md = README.ru-ru.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryVueMvcDecorator", "TryVueMvcDecorator\TryVueMvcDecorator.csproj", "{225E9391-A9C3-47E7-B853-F4617A669B56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryVueMvcDecorator", "TryVueMvcDecorator\TryVueMvcDecorator.csproj", "{225E9391-A9C3-47E7-B853-F4617A669B56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryVueMvcGrid", "TryVueMvcGrid\TryVueMvcGrid.csproj", "{13456F9F-A1DE-450E-973B-276C09BC0E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,10 @@ Global
 		{225E9391-A9C3-47E7-B853-F4617A669B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{225E9391-A9C3-47E7-B853-F4617A669B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{225E9391-A9C3-47E7-B853-F4617A669B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13456F9F-A1DE-450E-973B-276C09BC0E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13456F9F-A1DE-450E-973B-276C09BC0E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13456F9F-A1DE-450E-973B-276C09BC0E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13456F9F-A1DE-450E-973B-276C09BC0E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

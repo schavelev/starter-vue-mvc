@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "system",
+    "outFile": "wwwroot/dist/app-bandle.js",
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": [
+    "./ClientApp/**/*.ts"
+  ]
+}
