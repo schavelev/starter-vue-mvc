@@ -12,14 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
-    <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.6.362" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\components\AppHello.ts" />
-    <TypeScriptCompile Include="ClientApp\components\Hello.ts" />
-    <TypeScriptCompile Include="ClientApp\index.ts" />
+    <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.*" />
   </ItemGroup>
 
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
