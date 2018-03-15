@@ -1,9 +1,12 @@
-[переключить на русский](README.ru-ru.md)
+[на русском языке](README.ru-ru.md)
 # StarterVueMvc
 
 ![image](vue+aspnet+ts-bootstrap+require.png?raw=true "image")
 
-A solution for Visual Studio 2017. Starter application Vue.js + Asp.Net Core MVC + TypeScript + Bootstrap4.
+Starter application Vue.js + Asp.Net Core MVC + TypeScript + Bootstrap4. A solution for Visual Studio 2017 with 3 independent projects:
+- TryVueMvc
+- TryVueMvcDecorator
+- TryVueMvcGrid
 
 Also used as an example for articles on habrahabr.ru (in Russian):
 - [Vue.js + Asp.Net Core MVC + TypeScript and Bootstrap4 also](https://habrahabr.ru/post/350332/);
