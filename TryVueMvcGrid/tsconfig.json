@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
     "target": "es5",
@@ -8,12 +7,16 @@
     "outFile": "wwwroot/dist/app-bandle.js",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    //"noImplicitThis": true,
+    //"noImplicitAny": true,
+    //"alwaysStrict": true,
+    //"strictNullChecks": true,
+    //"strictFunctionTypes": true,
+    //"strictPropertyInitialization": true,
     "strict": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "noEmitOnError": true
   },
   "include": [
     "./ClientApp/**/*.ts"
