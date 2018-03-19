@@ -2,7 +2,7 @@
 import Vue from "vue";
 import AppHelloComponent from "./components/AppHello";
 
-let v = new Vue({
+new Vue({
     el: "#app-root",
     template: '<AppHelloComponent />',
     //render: h => h(AppHelloComponent),
