@@ -11,7 +11,6 @@ Starter application Vue.js + Asp.Net Core MVC + TypeScript + Bootstrap4. A solut
 Also used as an example for articles on habrahabr.ru (in Russian):
 - [Vue.js + Asp.Net Core MVC + TypeScript and also Bootstrap4](https://habrahabr.ru/post/350332/);
 - [Strict typing for Vue.js applications on TypeScript](https://habrahabr.ru/post/351216/);
-- to be continued... 
 
 # Installation
 
