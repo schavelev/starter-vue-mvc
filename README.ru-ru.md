@@ -12,7 +12,6 @@
 Также используется в качестве примера для статей на habrahabr.ru:
 - [Vue.js + Asp.Net Core MVC + TypeScript и ещё Bootstrap4](https://habrahabr.ru/post/350332/);
 - [Строгая типизация для приложений Vue.js на TypeScript](https://habrahabr.ru/post/351216/);
-- продолжение следует... 
 
 # Установка
 
